@@ -1,0 +1,14 @@
+<style type="text/css">
+	.container_detail{
+		 display: flex;
+	}
+	.continer_detail{
+		text-align: center;
+		margin: 50px;
+	}
+	#buy{
+		padding: 10px;
+		background-color: #DC381F;
+		color: white;
+	}
+</style>

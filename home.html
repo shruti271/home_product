@@ -1,0 +1,101 @@
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <title>online store</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap" rel="stylesheet"><!--for font-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- <script src="jquery-3.4.1.min.js"></script> -->
+    </head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+        <div class="navbar">
+            <div class="logo">                
+                <h1>shope decore</h1>                
+            </div>
+            <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">product</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">account</a></li>
+            </ul>
+            </nav>
+            
+            <i class="fa fa-shopping-cart"></i>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col">                               
+                 <!-- <img src="/Users/admin/Pictures/homedecore/img1.jpg" height="500x" width="100%" id="im1"> -->
+            </div>
+        </div>   
+</div>
+<!--  -------------------------------------proct hide div------------------------------------- -->
+<div class="product">   
+</div>
+<!--  -------------------------------------feature category------------------------------------- -->
+<div class="catagories">
+    <div class="small-container">
+            <div class="row">
+                        <div class="col-3">
+                            <img src="/Users/admin/Pictures/homedecore/watch1.jpg"> 
+                        </div>
+                        <div class="col-3">
+                            <img src="/Users/admin/Pictures/homedecore/watch1.jpg"> 
+                        </div>            
+                        <div class="col-3">
+                            <img src="/Users/admin/Pictures/homedecore/watch1.jpg"> 
+                        </div>
+            </div>
+    </div>
+
+</div>
+<!--  -------------------------------------product------------------------------------- -->
+
+<div class="small-container-pro">
+     
+    <h2 class="title">Feature Product</h2>
+
+    <div class="row-pro">
+        <div class="col-4">
+            <img src="/Users/admin/Pictures/homedecore/watch1.jpg">
+            <h4>sofa</h4>
+            <i class="fa fa-inr" aria-hidden="true"></i>500
+        </div>
+        <div class="col-4">
+            <img src="/Users/admin/Pictures/homedecore/img0.jpg">
+            <h4>sofa</h4>
+            <i class="fa fa-inr" aria-hidden="true"></i>500
+        </div>
+        <div class="col-4">
+            <img src="/Users/admin/Pictures/homedecore/img2.jpg">
+            <h4>sofa</h4>
+            <i class="fa fa-inr" aria-hidden="true"></i>500
+        </div>
+        <div class="col-4">
+            <img src="/Users/admin/Pictures/homedecore/img1.jpg">
+            <h4>sofa</h4>
+            <i class="fa fa-inr" aria-hidden="true"></i>500
+        </div>
+    </div>
+</div>
+<!--  -------------------------------------testinomal------------------------------------- -->
+
+<!--  -------------------------------------javascripy------------------------------------- -->
+<script type="text/javascript">
+            var imgs=['img0.jpg','img1.jpg','img2.jpg','img3.jpg'];
+            var i=0;
+        setInterval(ca,1900);
+
+        var p=document.getElementById("im1");	
+            function ca(){	
+                p.src="/Users/admin/Pictures/homedecore/"+imgs[i];	
+            i++;
+            if(i==3)i=0;
+        }
+</script>
+</body>
+</html>
